@@ -258,10 +258,11 @@ header .menu{
 
 @media(max-width:650px){
     .apresentacao{
+        height: 95vh;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 220px;
+        margin-top: 60px;
     }
 
     .t-titulo{
@@ -280,7 +281,7 @@ header .menu{
     .img{
         max-width: 300px;
         height: auto;
-        margin-top: 35px;
+        margin-top: 50px;
     }
 }
 
@@ -393,7 +394,11 @@ header .menu{
         padding: 0 5%;
         margin-top: 230px;
     }
-    
+
+    .quali-texto{
+        margin-top: 90px;
+    }
+
     .skills-f{
         display: none;
     }
@@ -967,14 +972,19 @@ section{
 
 @media(max-width:650px){
     .box-form{
-        height: 420px;
+        height: 410px;
         width: 270px;
-        margin: 60px;
+        margin: 75px;
     }
     .text-form{
         font-size: 20px;
         font-weight: 600;
         padding: 5px 25px;
+    }
+    .img-form {
+        max-width: 255px;
+        margin-top: 35px;
+        margin-bottom: 35px;
     }
 }
 
@@ -1045,6 +1055,6 @@ section{
         font-size: 9px;
         color: #ffffff;
         list-style: none;
-        padding: 0 20px;
+        padding: 2px 60px;
     }
 }
