@@ -420,7 +420,7 @@ header .menu{
     position: relative;
     width: 1000px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin: 20px;
     margin-top: -25px;
