@@ -285,6 +285,8 @@ header .menu{
     }
 }
 
+
+
 /* ^^^^ Apresentação */
 
 .container-qualificacoes{
@@ -511,6 +513,11 @@ header .menu{
     color: #fff;
 }
 
+.style-text{
+    text-align: none;
+    margin-top: 10px;
+}
+
 @media (max-width: 992px){
     .container-area{
         width: 100%;
@@ -545,6 +552,14 @@ header .menu{
     .container-area .a-card .content{
         position: relative;
         width: 100%;
+    }
+    .style-text{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .style-title{
+        text-align: center;
     }
 }
 
